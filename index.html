@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./src/css/style.css"/>
-    <title>Aula 1 - Console</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
+    <title>Aula 1 - Contador</title>
   </head>
   <body>
-    <div>
-      <h1>Console</h1>
+    <main>
+      <h1>Contador</h1>
+      <p>Clique nos botões para alterar o valor.</p>
+      <div id="counter">
+        
+      <button id="remove" name="subtrair" onclick="decrement()">-</button>
+
+      <p id="currentNumber">0</p>
+
+      <button id="increment" name="adicionar" onclick="increment()">+</button>
     </div>
-
-
-
-
-
+    </main>
 
     <script src="./src/js/index.js"></script>
   </body>
