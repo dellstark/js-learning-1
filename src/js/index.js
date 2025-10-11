@@ -29,3 +29,15 @@ function decrement() {
 	count--;
 	CURRENT_NUMBER.innerHTML = count;
 }
+
+ /* pontosDeVida = pontosDeVida + 1*/
+
+pontosDeVida = 0;
+let total;
+for (let i = 0; i < 10; i++){
+    pontosDeVida = pontosDeVida + 1;
+    total = pontosDeVida;
+    console.log("Tomou poção de vida: " + pontosDeVida);
+}
+
+console.log("Total de pontos de vida: " + total);
